@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Cinema/static/css/main.e4150855.css",
+    "main.js": "/Cinema/static/js/main.40a85f54.js",
+    "static/js/488.3af395f7.chunk.js": "/Cinema/static/js/488.3af395f7.chunk.js",
+    "static/media/banner2.jpg": "/Cinema/static/media/banner2.ce9755ba697e63e74981.jpg",
+    "index.html": "/Cinema/index.html",
+    "main.e4150855.css.map": "/Cinema/static/css/main.e4150855.css.map",
+    "main.40a85f54.js.map": "/Cinema/static/js/main.40a85f54.js.map",
+    "488.3af395f7.chunk.js.map": "/Cinema/static/js/488.3af395f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4150855.css",
+    "static/js/main.40a85f54.js"
+  ]
+}
