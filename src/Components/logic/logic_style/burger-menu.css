@@ -1,0 +1,22 @@
+.burger_menu_movies_section{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.2rem;
+    padding-top: 75px;
+    text-align: center;
+    background-color: rgba(1, 1, 1, 0.627);
+    width: 18rem;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    transition: all 3s ease;
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    overflow-y: scroll;
+}
+.hidden{
+    display: none;
+}

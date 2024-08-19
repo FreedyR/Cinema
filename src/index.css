@@ -1,0 +1,47 @@
+:root{
+  --background: linear-gradient(149deg, rgba(2,0,36,1) 10%, rgba(121,9,112,1) 50%, rgba(0,212,255,1) 88%);
+}
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+img,svg{
+  aspect-ratio: 16/9;
+}
+
+body{
+  background: var(--background);
+  background-size: 250% 100%;
+  min-height: 100vh;
+  animation: gradient 15s ease infinite;
+  letter-spacing: 0.1rem;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.cinema{
+  min-height: 100vh;
+}
+button{
+  background-color: transparent;
+  border: 0;
+}
+.hidden{
+  display: none;
+}
+h1{
+  font-size: 1.2rem;
+}
+a{
+  text-decoration: none;
+}
